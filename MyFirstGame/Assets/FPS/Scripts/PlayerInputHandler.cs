@@ -25,7 +25,7 @@ public class PlayerInputHandler : MonoBehaviour
         DebugUtility.HandleErrorIfNullFindObject<GameFlowManager, PlayerInputHandler>(m_GameFlowManager, this);
 
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.visible = true;
     }
 
     private void LateUpdate()
